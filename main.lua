@@ -506,7 +506,7 @@ function OrionLib:MakeWindow(WindowConfig)
 	local CloseBtn = SetChildren(SetProps(MakeElement("Button"), {
 		Size = UDim2.new(0.5, 0, 1, 0),
 		Position = UDim2.new(0.5, 0, 0, 0),
-		BackgroundTransparency = 1
+		BackgroundTransparency = 0
 	}), {
 		AddThemeObject(SetProps(MakeElement("Image", "rbxassetid://7072725342"), {
 			Position = UDim2.new(0, 9, 0, 6),
@@ -516,7 +516,7 @@ function OrionLib:MakeWindow(WindowConfig)
 
 	local MinimizeBtn = SetChildren(SetProps(MakeElement("Button"), {
 		Size = UDim2.new(0.5, 0, 1, 0),
-		BackgroundTransparency = 1
+		BackgroundTransparency = 0
 	}), {
 		AddThemeObject(SetProps(MakeElement("Image", "rbxassetid://7072719338"), {
 			Position = UDim2.new(0, 9, 0, 6),
