@@ -613,7 +613,7 @@ function OrionLib:MakeWindow(WindowConfig)
 		--	ImageColor3 = Color3.fromRGB(33, 33, 33),
 		--	ImageTransparency = 0.7
 		--}),
-		SetChildren(SetProps(MakeElement("TFrame"), {
+		--[[SetChildren(SetProps(MakeElement("TFrame"), {
 			Size = UDim2.new(1, 0, 0, 50),
 			Name = "TopBar"
 		}), {
@@ -634,7 +634,7 @@ function OrionLib:MakeWindow(WindowConfig)
 		}),
 		DragPoint,
 		WindowStuff
-	}), "Main")
+	}), "Main")]]
 
 	if WindowConfig.ShowIcon then
 		WindowName.Position = UDim2.new(0, 50, 0, -24)
